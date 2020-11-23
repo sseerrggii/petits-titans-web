@@ -12,6 +12,7 @@ html {
 
 body {
   font-family: 'Montserrat';
+  font-size: 1.5rem;
 }
 
 .btn-xl {
@@ -103,6 +104,15 @@ h6 {
   font-size: 4rem;
   margin: 0;
   padding: 0;
+}
+
+@media (max-width: 500px) {
+  .masthead {
+    height: 100vh;
+  }
+  .masthead h1 {
+    font-size: 3rem;
+  }
 }
 
 @media (min-width: 992px) {
@@ -224,6 +234,11 @@ h6 {
   font-weight: 700;
   display: block;
   max-width: 30rem;
+}
+
+.callout blockquote {
+  margin: 3rem;
+  font-size: 3rem;
 }
 
 .portfolio-item {
