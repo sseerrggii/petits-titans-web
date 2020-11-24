@@ -241,6 +241,10 @@ h6 {
   font-size: 3rem;
 }
 
+.callout blockquote footer, .callout blockquote footer cite {
+  color: #fff;
+}
+
 @media (max-width: 400px) {
   .callout blockquote {
     margin: 2rem;
